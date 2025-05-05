@@ -1,2 +1,5 @@
-package org.example.dependencyInjection;public interface ProductInformation {
+package org.example.dependencyInjection;
+
+public interface ProductInformation {
+    void situation();
 }

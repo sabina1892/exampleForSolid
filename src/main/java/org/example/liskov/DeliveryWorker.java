@@ -1,2 +1,5 @@
-package org.example.liskov;public class DeliveryWorker {
+package org.example.liskov;
+
+public interface DeliveryWorker extends Worker{
+    void work();
 }
